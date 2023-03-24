@@ -9,10 +9,11 @@
 }
 /* body  */
 body {
-  height: 100vh;
-  background-image: linear-gradient(60deg, #7f53ac, #657ced);
+  margin-top: 2rem;
+  height: 100%;
+  background-image: linear-gradient(to right, #7f53ac, #657ced);
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
