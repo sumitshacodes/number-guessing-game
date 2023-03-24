@@ -1,99 +1,98 @@
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 /* body  */
-body{
-    height: 100vh;
-    background-image: linear-gradient(60deg,
-    #7f53ac,
-    #657ced);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+body {
+  height: 100vh;
+  background-image: linear-gradient(60deg, #7f53ac, #657ced);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 /* body heading  */
-body h1{
-    margin-bottom: 3rem;
-    background-color: #ffffff;
-    padding: 1rem 2rem;
-    border-radius: 1rem 2.5rem;
+body h1 {
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 1rem 2.5rem;
 }
 /* container  */
-.container{
-    display: grid;
-    justify-items: center;
-    text-align: center;
-    background-color: white;
-    border-radius: 1rem;
-    padding: 1.3rem 1.4rem;
-    margin: 0 1rem;
+.container {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.3rem 1.4rem;
+  margin: 0 1rem;
 }
 /* headings */
-h3{
-    font-weight: 600;
-    font-size: 1.3rem;
+h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 /* input  */
-input[type="text"]{
-    width: 5rem;
-    padding: .5rem 1rem;
-    font-size: 2rem;
-    margin: 1rem 0;
-    border: 2px solid #4e4e4e;
-    border-radius: .5rem;
+input[type="text"] {
+  width: 5rem;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  margin: 1rem 0;
+  border: 2px solid #4e4e4e;
+  border-radius: 0.5rem;
 }
 input[type="text"]:hover,
-input[type="text"]:active{
-    background-color: #ffffff;
-    color: #000000;
-    box-shadow: 5px 5px gray;
-    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    transform: scale(1.1);
+input[type="text"]:active {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 5px 5px gray;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.1);
 }
 /* submit button  */
-button{
-    width: 8rem;
-    padding: 1rem 1rem;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    background-color: white;
-    border: 2px solid #4e4e4e;
-    border-radius: .5rem;
-    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+button {
+  width: 8rem;
+  padding: 1rem 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border: 2px solid #4e4e4e;
+  border-radius: 0.5rem;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
 }
 button:hover,
-button:active{
-    background-color: #62cff0;
-    color: #000000;
-    box-shadow: 5px 5px gray;
-    transform: scale(1.1);
+button:active {
+  background-color: #62cff0;
+  color: #000000;
+  box-shadow: 5px 5px gray;
+  transform: scale(1.1);
 }
 /* paragraph */
-p{
-    font-size: 1.2rem;
+p {
+  font-size: 1.2rem;
 }
 /* footer section */
-div.footer{
-    width: 100vw;
-    height: auto;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    background-color: black;
-    color: #ffffff;
-    padding: .5rem;
+div.footer {
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 0.5rem;
 }
 .footer p {
-    font-size: .9rem;
+  font-size: 0.9rem;
 }
-span{
-    color: red;
+span {
+  color: red;
 }
