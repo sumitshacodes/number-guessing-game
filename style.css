@@ -7,6 +7,9 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* body  */
 body {
   margin-top: 2rem;
@@ -15,7 +18,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   text-align: center;
 }
 /* body heading  */
@@ -27,6 +30,7 @@ body h1 {
 }
 /* container  */
 .container {
+  width: fit-content;
   display: grid;
   justify-items: center;
   text-align: center;
@@ -91,6 +95,7 @@ div.footer {
   background-color: black;
   color: #ffffff;
   padding: 0.5rem;
+  margin-top: 5rem;
 }
 .footer p {
   font-size: 0.9rem;
