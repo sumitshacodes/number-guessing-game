@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game // Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- container  -->
+    <div class="container">
+      <h3>The computer is thinking of a number</h3>
+      <h3>Can you guess it?</h3>
+      <!-- input  -->
+      <input type="text" id="guess" placeholder="num" /><br />
+      <!-- button  -->
+      <button onClick="play()" id="my_btn" type="submit">Guess</button>
+      <!-- text messages  -->
+      <p id="message1">No. Of Guesses: 0</p>
+      <p id="message2">Your Guessed Numbers are: None</p>
+      <p id="message3"></p>
+    </div>
+    <!-- scipt  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
