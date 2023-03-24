@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
 }
 /* body heading  */
@@ -34,7 +34,6 @@ body h1 {
   border-radius: 1rem;
   padding: 1.3rem 1.4rem;
   margin: 0 1rem;
-  margin-bottom: 5rem;
 }
 /* headings */
 h3 {
@@ -85,7 +84,7 @@ p {
 div.footer {
   width: 100vw;
   height: auto;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   text-align: center;
   background-color: black;
