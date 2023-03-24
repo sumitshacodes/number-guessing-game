@@ -4,7 +4,8 @@ var msg2 = document.getElementById("message2");
 var msg3 = document.getElementById("message3");
 // generating a random number
 const answer = Math.floor(Math.random() * 100) + 1;
-console.log(answer);
+
+// console.log(answer);
 
 /* declaring variables for guesses and no of guesses */
 
